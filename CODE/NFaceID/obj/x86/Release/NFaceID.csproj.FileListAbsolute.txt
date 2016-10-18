@@ -100,3 +100,6 @@ F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Properties.Resour
 F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Register.resources
 F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.SystemSetting.resources
 F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.csproj.GenerateResource.Cache
+D:\ProjectGit\FaceID\CODE\NFaceID\bin\x86\Release\NFaceID.exe.config
+D:\ProjectGit\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.exe
+D:\ProjectGit\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.pdb
