@@ -181,14 +181,14 @@
             // lịchSửNhânViênToolStripMenuItem
             // 
             this.lịchSửNhânViênToolStripMenuItem.Name = "lịchSửNhânViênToolStripMenuItem";
-            this.lịchSửNhânViênToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.lịchSửNhânViênToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.lịchSửNhânViênToolStripMenuItem.Text = "Nhân viên";
             this.lịchSửNhânViênToolStripMenuItem.Click += new System.EventHandler(this.lịchSửNhânViênToolStripMenuItem_Click);
             // 
             // lịchSửToolStripMenuItem
             // 
             this.lịchSửToolStripMenuItem.Name = "lịchSửToolStripMenuItem";
-            this.lịchSửToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.lịchSửToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.lịchSửToolStripMenuItem.Text = "Lịch sử";
             this.lịchSửToolStripMenuItem.Click += new System.EventHandler(this.lịchSửToolStripMenuItem_Click);
             // 
@@ -381,7 +381,7 @@
             this.lbl_HoTen.AutoSize = true;
             this.lbl_HoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_HoTen.ForeColor = System.Drawing.Color.Green;
-            this.lbl_HoTen.Location = new System.Drawing.Point(454, 66);
+            this.lbl_HoTen.Location = new System.Drawing.Point(454, 45);
             this.lbl_HoTen.Name = "lbl_HoTen";
             this.lbl_HoTen.Size = new System.Drawing.Size(0, 17);
             this.lbl_HoTen.TabIndex = 14;
@@ -391,7 +391,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Green;
-            this.label3.Location = new System.Drawing.Point(485, 125);
+            this.label3.Location = new System.Drawing.Point(485, 104);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(21, 17);
             this.label3.TabIndex = 13;
@@ -401,7 +401,7 @@
             // 
             this.lbl_Time.AutoSize = true;
             this.lbl_Time.ForeColor = System.Drawing.Color.Green;
-            this.lbl_Time.Location = new System.Drawing.Point(454, 95);
+            this.lbl_Time.Location = new System.Drawing.Point(454, 74);
             this.lbl_Time.Name = "lbl_Time";
             this.lbl_Time.Size = new System.Drawing.Size(0, 17);
             this.lbl_Time.TabIndex = 12;
@@ -411,7 +411,7 @@
             this.lbl_TrongSo.AutoSize = true;
             this.lbl_TrongSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_TrongSo.ForeColor = System.Drawing.Color.Green;
-            this.lbl_TrongSo.Location = new System.Drawing.Point(454, 125);
+            this.lbl_TrongSo.Location = new System.Drawing.Point(454, 104);
             this.lbl_TrongSo.Name = "lbl_TrongSo";
             this.lbl_TrongSo.Size = new System.Drawing.Size(17, 17);
             this.lbl_TrongSo.TabIndex = 11;
@@ -433,7 +433,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.label4.Location = new System.Drawing.Point(345, 124);
+            this.label4.Location = new System.Drawing.Point(345, 103);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 17);
             this.label4.TabIndex = 8;
@@ -444,7 +444,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.label2.Location = new System.Drawing.Point(345, 95);
+            this.label2.Location = new System.Drawing.Point(345, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 17);
             this.label2.TabIndex = 4;
@@ -455,7 +455,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.label1.Location = new System.Drawing.Point(345, 66);
+            this.label1.Location = new System.Drawing.Point(345, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 17);
             this.label1.TabIndex = 2;
@@ -467,7 +467,7 @@
             this.panel_db_img.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_db_img.Location = new System.Drawing.Point(176, 12);
             this.panel_db_img.Name = "panel_db_img";
-            this.panel_db_img.Size = new System.Drawing.Size(145, 137);
+            this.panel_db_img.Size = new System.Drawing.Size(141, 137);
             this.panel_db_img.TabIndex = 1;
             // 
             // panel_img
