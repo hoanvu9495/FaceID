@@ -1,0 +1,88 @@
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\bin\x86\Debug\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\bin\x86\Debug\NFaceID.exe.config
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.CameraForm.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Form1.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Form_AddFace.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Loading.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Properties.Resources.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.SystemSetting.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.csproj.GenerateResource.Cache
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\bin\x86\Debug\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID\NFaceID\obj\x86\Debug\NFaceID.csprojResolveAssemblyReference.cache
+D:\Negatech\NFaceID\NFaceID\bin\x86\Debug\NFaceID.exe.config
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.exe
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.pdb
+D:\Negatech\NFaceID\NFaceID\bin\x86\Debug\NFaceID.exe
+D:\Negatech\NFaceID\NFaceID\bin\x86\Debug\NFaceID.pdb
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.CameraForm.resources
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Form1.resources
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Form_AddFace.resources
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Loading.resources
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Properties.Resources.resources
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.SystemSetting.resources
+D:\Negatech\NFaceID\NFaceID\obj\x86\Debug\NFaceID.csproj.GenerateResource.Cache
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\bin\x86\Debug\NFaceID.exe.config
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\bin\x86\Debug\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\bin\x86\Debug\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.csprojResolveAssemblyReference.cache
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.CameraForm.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Form1.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Form_AddFace.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Loading.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.Properties.Resources.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.SystemSetting.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID-Update\NFaceID\NFaceID\obj\x86\Debug\NFaceID.csproj.GenerateResource.Cache
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\NFaceID.exe.config
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.exe
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.pdb
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\NFaceID.exe
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\NFaceID.pdb
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.CameraForm.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Form1.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Form_AddFace.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Loading.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Properties.Resources.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.SystemSetting.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.csproj.GenerateResource.Cache
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\EntityFramework.dll
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\EntityFramework.SqlServer.dll
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\EntityFramework.xml
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\EntityFramework.SqlServer.xml
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_ManageEmployee.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_History.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.csprojResolveAssemblyReference.cache
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_ProfileEmp.resources
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_ChamCong.resources
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\EPPlus.dll
+D:\Negatech\NFaceID2\NFaceID\bin\x86\Debug\EPPlus.xml
+D:\Negatech\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_Wait.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\EntityFramework.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\EntityFramework.SqlServer.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\NFaceID.exe.config
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\EPPlus.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\EntityFramework.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\EntityFramework.SqlServer.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\EPPlus.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.CameraForm.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Form1.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Form_AddFace.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_ChamCong.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_History.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_ManageEmployee.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_ProfileEmp.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.frm_Wait.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Loading.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Polygon.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Properties.Resources.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.SystemSetting.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.csproj.GenerateResource.Cache
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Debug\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.Frm_Turnon.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Debug\NFaceID.csprojResolveAssemblyReference.cache

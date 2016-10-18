@@ -1,0 +1,102 @@
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\NFaceID.exe.config
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\Emgu.CV.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\Emgu.CV.UI.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\Emgu.Util.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\EntityFramework.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\EntityFramework.SqlServer.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\EPPlus.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\EntityFramework.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\EntityFramework.SqlServer.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\bin\x86\Release\EPPlus.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.CameraForm.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Form1.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Form_AddFace.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_ChamCong.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_History.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_ManageEmployee.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_ProfileEmp.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Frm_Turnon.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_Wait.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Loading.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Polygon.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Properties.Resources.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.SystemSetting.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.csproj.GenerateResource.Cache
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_ViewImgDetect.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.InputLicense.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Register.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.csprojResolveAssemblyReference.cache
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_init.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\NFaceID2UpdateHistory\NFaceID2\NFaceID\obj\x86\Release\NFaceID.About.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\NFaceID.exe.config
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.exe
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.pdb
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.csprojResolveAssemblyReference.cache
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.About.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.CameraForm.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Form1.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Form_AddFace.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_ChamCong.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_History.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_init.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_ManageEmployee.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_ProfileEmp.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Frm_Turnon.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_ViewImgDetect.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.frm_Wait.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.InputLicense.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Loading.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Polygon.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Properties.Resources.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.Register.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.SystemSetting.resources
+F:\NFaceID2 (1)\NFaceID2\NFaceID\obj\x86\Release\NFaceID.csproj.GenerateResource.Cache
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\NFaceID.exe
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\NFaceID.pdb
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\Emgu.CV.dll
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\Emgu.CV.UI.dll
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\Emgu.Util.dll
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\EntityFramework.dll
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\EntityFramework.SqlServer.dll
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\EPPlus.dll
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\EntityFramework.xml
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\EntityFramework.SqlServer.xml
+F:\NFaceID2 (1)\NFaceID2\NFaceID\bin\x86\Release\EPPlus.xml
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\NFaceID.exe.config
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.exe
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.pdb
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\NFaceID.exe
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\NFaceID.pdb
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\Emgu.CV.dll
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\Emgu.CV.UI.dll
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\Emgu.Util.dll
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\EntityFramework.dll
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\EntityFramework.SqlServer.dll
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\EPPlus.dll
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\EntityFramework.xml
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\EntityFramework.SqlServer.xml
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\bin\x86\Release\EPPlus.xml
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.csprojResolveAssemblyReference.cache
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.About.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.CameraForm.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Form1.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Form_AddFace.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.frm_ChamCong.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.frm_History.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.frm_init.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.frm_ManageEmployee.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.frm_ProfileEmp.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Frm_Turnon.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.frm_ViewImgDetect.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.frm_Wait.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.InputLicense.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Loading.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Polygon.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Properties.Resources.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.Register.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.SystemSetting.resources
+F:\NFaceID2 (1)\NFaceID2\NFace\NFaceID\obj\x86\Release\NFaceID.csproj.GenerateResource.Cache

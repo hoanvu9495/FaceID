@@ -1,0 +1,8 @@
+0.75
+data/models/haarcascades/haarcascade_frontalface_alt2.xml
+gallery
+data/models/haarcascades/haarcascade_mcs_eyepair_big.xml
+data/models/haarcascades/haarcascade_mcs_lefteye.xml
+data/models/haarcascades/haarcascade_mcs_righteye.xml
+data/models/haarcascades/haarcascade_mcs_nose.xml
+data/models/haarcascades/haarcascade_mcs_mouth.xml
