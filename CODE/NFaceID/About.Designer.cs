@@ -35,9 +35,9 @@
             // 
             this.panel1.BackgroundImage = global::NFaceID.Properties.Resources.about;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Location = new System.Drawing.Point(2, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(563, 363);
+            this.panel1.Size = new System.Drawing.Size(561, 362);
             this.panel1.TabIndex = 0;
             // 
             // About

@@ -35,6 +35,7 @@ namespace NFaceID
         EMPLOYEE emp = new EMPLOYEE();
         public int m_width = 1080;
         public int m_height = 1920;
+        string _message = "";
         public Form_AddFace()
         {
             InitializeComponent();
@@ -144,7 +145,7 @@ namespace NFaceID
         private void click_FaceDetect(object sender, EventArgs e)
         {
 
-            if (btn_FaceDetect.Text=="Chụp")
+            if (btn_FaceDetect.Text == "Chụp")
             {
                 if (m_isVideo)
                 {
@@ -207,7 +208,7 @@ namespace NFaceID
                     pictureBox1.Refresh();
                 }
             }
-            
+
 
         }
 
@@ -225,7 +226,8 @@ namespace NFaceID
                         {
                             m_bitmap_snapshot = new Bitmap(m_bitmap);
                             m_isSnapshot = false;
-                            label_progressing.Invoke(new Action(() => {
+                            label_progressing.Invoke(new Action(() =>
+                            {
                                 label_progressing.Text = "Đã Chụp ảnh";
                             }));
                             //panel2.Invoke(new Action(() =>
@@ -354,28 +356,116 @@ namespace NFaceID
             per.TIME_UPDATE = DateTime.Now;
             per.TYPE_PS = 1;
         }
+        private bool checkValidate()
+        {
+            _message = string.Empty;
+            if (!BLL_Validate.CMTValidate(txt_Cmt.Text))
+            {
+                _message = "+ Vui lòng nhập đúng định dạng số cmt\n";
+            }
+            if (!BLL_Validate.EmailValidate(txt_Email.Text))
+            {
+                _message = "+ Vui lòng nhập đúng định dạng email\n";
+
+            }
+            if (!BLL_Validate.PhoneValidate(txt_SDT.Text))
+            {
+                _message = "+ Số điện thoại gồm các chữ số\n";
+
+            }
+            if (_message.Any())
+            {
+                return false;
+            }
+            return true;
+        }
+        private bool checkEmpty()
+        {
+            _message = string.Empty;
+            if (!txt_HoTen.Text.Any())
+            {
+                _message = "+ Vui lòng nhập tên\n";
+            }
+            if (!txt_Cmt.Text.Any())
+            {
+                _message += "Vui lòng nhập số CMT/CCCD\n";
+            }
+            if (!txt_SDT.Text.Any())
+            {
+                _message += "Vui lòng nhập số điện thoại liên hệ\n";
+            }
+            if (!txt_Email.Text.Any())
+            {
+                _message += "Vui lòng nhập email\n";
+            }
+            if (!txt_DiaChi.Text.Any())
+            {
+                _message += "Vui lòng nhập địa chỉ";
+            }
+            if (_message.Any())
+            {
+                return true;
+            }
+            return false;
+        }
         private void button_Click_Enroll(object sender, EventArgs e)
         {
             if (m_bitmap_Face != null)
             {
-                if (saveImg(m_bitmap_Face))
+                if (!checkEmpty())
                 {
-                    getPer();                   
-                    string rs = createEmp();
-                    
-                    if (rs == "Lưu thành công")
+                    if (checkValidate())
                     {
-                        m_name = emp.ID.ToString();
-                        Thread t = new Thread(HuanluyenThem);
-                        t.Start();
-                        txt_HoTen.ResetText();
-                        txt_DiaChi.ResetText();
-                        chk_profile.Checked = false;
-                        btn_createProfile.Visible = false;
-                        pictureBox1.ResetText();
+                        emp.IMG_FACE = per.IMG_FACE;
+                        emp.ID_PS = per.ID;
+                        emp.ID = DAL_EMPLOYEE.getIDNew();
+                        emp.NAME = txt_HoTen.Text;
+                        emp.CMT = txt_Cmt.Text;
+                        emp.EMAIL = txt_Email.Text;
+                        if (rbn_Nam.Checked)
+                        {
+                            emp.GENDER = "Nam";
+
+                        }
+                        else
+                        {
+                            emp.GENDER = "Nữ";
+
+                        }
+                        emp.ADDRESS_EMP = txt_DiaChi.Text;
+                        emp.BIRTHDAY = dtp_Bỉthday.Value.Date;
+                        emp.PHONE = txt_SDT.Text;
+                        emp.ISDELETE = false;
+
+                        if (saveImg(m_bitmap_Face))
+                        {
+                            getPer();
+                            string rs = createEmp();
+
+                            if (rs == "Lưu thành công")
+                            {
+                                m_name = emp.ID.ToString();
+                                Thread t = new Thread(HuanluyenThem);
+                                t.Start();
+                                txt_HoTen.ResetText();
+                                txt_DiaChi.ResetText();
+                                pictureBox1.ResetText();
+                            }
+                        }
+
+
+                    }
+                    else
+                    {
+                        MessageBox.Show(_message, "Lỗi");
                     }
                 }
-                
+                else
+                {
+                    MessageBox.Show(_message, "Lỗi");
+                }
+
+
             }
             else
             {
@@ -404,7 +494,7 @@ namespace NFaceID
             label_progressing.Invoke(new Action(() =>
             {
                 label_progressing.Text = "Thành công";
-                
+
             }));
             MessageBox.Show("Thành công", "Thông báo");
         }
@@ -444,15 +534,12 @@ namespace NFaceID
         {
             try
             {
-
                 // Save Image
                 string filename = BLL_PARA.PathFace + Ultis.RemoveUnicode(txt_HoTen.Text) + ".Jpg";
                 FileStream fstream = new FileStream(filename, FileMode.Create);
                 bmp.Save(fstream, System.Drawing.Imaging.ImageFormat.Jpeg);
                 fstream.Close();
                 return true;
-
-
             }
             catch (Exception)
             {
@@ -473,9 +560,9 @@ namespace NFaceID
                         try
                         {
                             context.PERSONALs.Add(per);
-                            
-                                context.EMPLOYEEs.Add(emp);                                
-                            
+
+                            context.EMPLOYEEs.Add(emp);
+
                             context.SaveChanges();
                             dbContextTransaction.Commit();
                             return "Lưu thành công";
@@ -495,42 +582,11 @@ namespace NFaceID
                 return "Không lưu được";
             }
         }
-        private void GetEmp(EMPLOYEE emp)
-        {
-            
-                this.emp.ID = DAL_EMPLOYEE.getIDNew();
-                this.emp.ID_PS = per.ID;
-                this.emp.IMG_FACE = per.IMG_FACE;
-                this.emp.BIRTHDAY = emp.BIRTHDAY;
-                this.emp.CMT = emp.CMT;
-                this.emp.EMAIL = emp.EMAIL;
-                this.emp.GENDER = emp.GENDER;
-                this.emp.ISDELETE = emp.ISDELETE;
-                this.emp.NAME = emp.NAME;
-                this.emp.PHONE = emp.PHONE;
-                this.emp.ISDELETE = false;
-                this.emp.ADDRESS_EMP = emp.ADDRESS_EMP;
-                chk_profile.Checked = true;
-            
-
-
-        }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (m_bitmap_Face!=null)
-            {
-                frm_ProfileEmp frm = new frm_ProfileEmp(m_bitmap_Face, txt_HoTen.Text, txt_DiaChi.Text);
-                frm.SetProfile += GetEmp;
-                frm.ShowDialog();
-            }
-            
-        }
-
         private void comboBox_attribute_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
 
-        
+
     }
 }

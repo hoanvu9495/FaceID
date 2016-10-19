@@ -36,6 +36,7 @@ namespace NFaceID
             checkBox1.Checked = false;
             checkBox3.Checked = false;
             checkBox2.Checked = false;
+            checkBox4.Checked = false;
             textBox2.Enabled = false;
             textBox1.Enabled = false;
             btn_ChonAnh.Enabled = false;
@@ -47,6 +48,7 @@ namespace NFaceID
             {
                 checkBox3.Checked = false;
                 checkBox2.Checked = false;
+                checkBox4.Checked = false;
                 textBox2.Enabled = false;
                 textBox1.Enabled = false;
                 button1.Enabled = false;
@@ -60,6 +62,7 @@ namespace NFaceID
             {
                 checkBox1.Checked = false;
                 checkBox3.Checked = false;
+                checkBox4.Checked = false;
                 textBox2.Enabled = false;
                 textBox1.Enabled = true;
                 button1.Enabled = true;
@@ -151,6 +154,7 @@ namespace NFaceID
                 textBox1.Enabled = false;
                 btn_ChonAnh.Enabled = false;
                 button1.Enabled = false;
+                index = 3;
             }
             else
             {
