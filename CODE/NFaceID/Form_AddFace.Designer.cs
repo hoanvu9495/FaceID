@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button_Train_Enroll = new System.Windows.Forms.Button();
-            this.button_Exit = new System.Windows.Forms.Button();
             this.label_progressing = new System.Windows.Forms.Label();
             this.button_CameraURL = new System.Windows.Forms.Button();
             this.btn_FaceDetect = new System.Windows.Forms.Button();
@@ -42,42 +40,13 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chk_profile = new System.Windows.Forms.CheckBox();
             this.btn_createProfile = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button_Train_Enroll = new System.Windows.Forms.Button();
+            this.button_Exit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button_Train_Enroll
-            // 
-            this.button_Train_Enroll.BackColor = System.Drawing.Color.White;
-            this.button_Train_Enroll.FlatAppearance.BorderSize = 0;
-            this.button_Train_Enroll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Train_Enroll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Train_Enroll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.button_Train_Enroll.Location = new System.Drawing.Point(687, 11);
-            this.button_Train_Enroll.Name = "button_Train_Enroll";
-            this.button_Train_Enroll.Size = new System.Drawing.Size(75, 25);
-            this.button_Train_Enroll.TabIndex = 8;
-            this.button_Train_Enroll.Text = "Thêm";
-            this.button_Train_Enroll.UseVisualStyleBackColor = false;
-            this.button_Train_Enroll.Click += new System.EventHandler(this.button_Click_Enroll);
-            // 
-            // button_Exit
-            // 
-            this.button_Exit.BackColor = System.Drawing.Color.White;
-            this.button_Exit.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button_Exit.FlatAppearance.BorderSize = 0;
-            this.button_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.button_Exit.Location = new System.Drawing.Point(768, 11);
-            this.button_Exit.Name = "button_Exit";
-            this.button_Exit.Size = new System.Drawing.Size(54, 25);
-            this.button_Exit.TabIndex = 15;
-            this.button_Exit.Text = "Đóng";
-            this.button_Exit.UseVisualStyleBackColor = false;
-            this.button_Exit.Click += new System.EventHandler(this.button_Exit_Click);
             // 
             // label_progressing
             // 
@@ -222,6 +191,17 @@
             this.btn_createProfile.UseVisualStyleBackColor = false;
             this.btn_createProfile.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(246, 5);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(344, 31);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Thêm khuôn mặt nhận dạng";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
@@ -233,16 +213,36 @@
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
-            // label5
+            // button_Train_Enroll
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(246, 5);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(344, 31);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Thêm khuôn mặt nhận dạng";
+            this.button_Train_Enroll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
+            this.button_Train_Enroll.FlatAppearance.BorderSize = 0;
+            this.button_Train_Enroll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Train_Enroll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Train_Enroll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
+            this.button_Train_Enroll.Image = global::NFaceID.Properties.Resources.save__2_;
+            this.button_Train_Enroll.Location = new System.Drawing.Point(745, 8);
+            this.button_Train_Enroll.Name = "button_Train_Enroll";
+            this.button_Train_Enroll.Size = new System.Drawing.Size(32, 32);
+            this.button_Train_Enroll.TabIndex = 8;
+            this.button_Train_Enroll.UseVisualStyleBackColor = false;
+            this.button_Train_Enroll.Click += new System.EventHandler(this.button_Click_Enroll);
+            // 
+            // button_Exit
+            // 
+            this.button_Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
+            this.button_Exit.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.button_Exit.FlatAppearance.BorderSize = 0;
+            this.button_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
+            this.button_Exit.Image = global::NFaceID.Properties.Resources.close1;
+            this.button_Exit.Location = new System.Drawing.Point(790, 8);
+            this.button_Exit.Name = "button_Exit";
+            this.button_Exit.Size = new System.Drawing.Size(32, 32);
+            this.button_Exit.TabIndex = 15;
+            this.button_Exit.UseVisualStyleBackColor = false;
+            this.button_Exit.Click += new System.EventHandler(this.button_Exit_Click);
             // 
             // Form_AddFace
             // 
@@ -258,7 +258,7 @@
             this.Controls.Add(this.button_CameraURL);
             this.Controls.Add(this.button_Exit);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form_AddFace";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";

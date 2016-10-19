@@ -45,8 +45,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtp_Bỉthday = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
-            this.ptb_Face = new System.Windows.Forms.PictureBox();
             this.btn_edit = new System.Windows.Forms.Button();
+            this.ptb_Face = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptb_Face)).BeginInit();
             this.SuspendLayout();
@@ -241,6 +241,20 @@
             this.label3.TabIndex = 70;
             this.label3.Text = "Ngày sinh";
             // 
+            // btn_edit
+            // 
+            this.btn_edit.BackColor = System.Drawing.Color.White;
+            this.btn_edit.FlatAppearance.BorderSize = 0;
+            this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_edit.ForeColor = System.Drawing.Color.White;
+            this.btn_edit.Image = global::NFaceID.Properties.Resources.done__2_;
+            this.btn_edit.Location = new System.Drawing.Point(393, 2);
+            this.btn_edit.Name = "btn_edit";
+            this.btn_edit.Size = new System.Drawing.Size(32, 32);
+            this.btn_edit.TabIndex = 73;
+            this.btn_edit.UseVisualStyleBackColor = false;
+            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
+            // 
             // ptb_Face
             // 
             this.ptb_Face.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -251,25 +265,11 @@
             this.ptb_Face.TabIndex = 69;
             this.ptb_Face.TabStop = false;
             // 
-            // btn_edit
-            // 
-            this.btn_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.btn_edit.FlatAppearance.BorderSize = 0;
-            this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_edit.ForeColor = System.Drawing.Color.White;
-            this.btn_edit.Location = new System.Drawing.Point(353, 12);
-            this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(75, 25);
-            this.btn_edit.TabIndex = 73;
-            this.btn_edit.Text = "Xong";
-            this.btn_edit.UseVisualStyleBackColor = false;
-            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
-            // 
             // frm_ProfileEmp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(437, 327);
             this.ControlBox = false;
             this.Controls.Add(this.btn_edit);

@@ -24,5 +24,10 @@ namespace NFaceID
             m_name = textBox1.Text;
             m_phone = textBox2.Text;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

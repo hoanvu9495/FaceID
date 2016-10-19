@@ -38,7 +38,7 @@ namespace NFaceID
         public Form_AddFace()
         {
             InitializeComponent();
-            string pathDefault=Application.StartupPath + @"\File\noimagefound.Jpg";
+            string pathDefault = Application.StartupPath + @"\File\noimagefound.Jpg";
             pictureBox1.Image = new Bitmap(pathDefault);
             panel1.BackgroundImage = new Bitmap(Application.StartupPath + @"\File\NoVideo.Png");
             panel1.BackgroundImageLayout = ImageLayout.Center;
@@ -517,9 +517,13 @@ namespace NFaceID
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            frm_ProfileEmp frm = new frm_ProfileEmp(m_bitmap_Face, txt_HoTen.Text, txt_DiaChi.Text);
-            frm.SetProfile += GetEmp;
-            frm.ShowDialog();
+            if (m_bitmap_Face!=null)
+            {
+                frm_ProfileEmp frm = new frm_ProfileEmp(m_bitmap_Face, txt_HoTen.Text, txt_DiaChi.Text);
+                frm.SetProfile += GetEmp;
+                frm.ShowDialog();
+            }
+            
         }
 
         private void comboBox_attribute_SelectedIndexChanged(object sender, EventArgs e)

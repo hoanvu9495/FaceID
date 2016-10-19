@@ -44,7 +44,6 @@
             this.rbn_Nu = new System.Windows.Forms.RadioButton();
             this.rbn_Nam = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
-            this.ptb_ImageCustomer = new System.Windows.Forms.PictureBox();
             this.btn_ChupImg = new System.Windows.Forms.Button();
             this.txt_DiaChi = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -89,11 +88,12 @@
             this.GHICHUHis = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IMG_FACE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button8 = new System.Windows.Forms.Button();
+            this.ptb_ImageCustomer = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb_ImageCustomer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_AllEmp)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_history)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_ImageCustomer)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -296,15 +296,6 @@
             this.label2.Size = new System.Drawing.Size(60, 17);
             this.label2.TabIndex = 51;
             this.label2.Text = "Giới tính";
-            // 
-            // ptb_ImageCustomer
-            // 
-            this.ptb_ImageCustomer.BackColor = System.Drawing.Color.White;
-            this.ptb_ImageCustomer.Location = new System.Drawing.Point(481, 320);
-            this.ptb_ImageCustomer.Name = "ptb_ImageCustomer";
-            this.ptb_ImageCustomer.Size = new System.Drawing.Size(126, 155);
-            this.ptb_ImageCustomer.TabIndex = 36;
-            this.ptb_ImageCustomer.TabStop = false;
             // 
             // btn_ChupImg
             // 
@@ -616,16 +607,16 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
+            this.button6.Image = global::NFaceID.Properties.Resources.Excel;
             this.button6.Location = new System.Drawing.Point(557, 31);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 25);
+            this.button6.Size = new System.Drawing.Size(32, 32);
             this.button6.TabIndex = 60;
-            this.button6.Text = "Excel";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -761,18 +752,27 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.White;
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.button8.Location = new System.Drawing.Point(1198, 9);
+            this.button8.Image = global::NFaceID.Properties.Resources.close1;
+            this.button8.Location = new System.Drawing.Point(1244, 7);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 25);
+            this.button8.Size = new System.Drawing.Size(32, 32);
             this.button8.TabIndex = 60;
-            this.button8.Text = "Đóng";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // ptb_ImageCustomer
+            // 
+            this.ptb_ImageCustomer.BackColor = System.Drawing.Color.White;
+            this.ptb_ImageCustomer.Location = new System.Drawing.Point(481, 320);
+            this.ptb_ImageCustomer.Name = "ptb_ImageCustomer";
+            this.ptb_ImageCustomer.Size = new System.Drawing.Size(126, 155);
+            this.ptb_ImageCustomer.TabIndex = 36;
+            this.ptb_ImageCustomer.TabStop = false;
             // 
             // frm_ManageEmployee
             // 
@@ -793,11 +793,11 @@
             this.Load += new System.EventHandler(this.frm_ManageEmployee_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb_ImageCustomer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_AllEmp)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_history)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_ImageCustomer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

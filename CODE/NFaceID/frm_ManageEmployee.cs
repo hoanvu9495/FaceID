@@ -41,8 +41,18 @@ namespace NFaceID
             dgv_AllEmp.Columns["IMG_FACE"].Visible = false;
             for (int i = 0; i < dgv_AllEmp.Rows.Count; i++)
             {
-                Bitmap img = new Bitmap(dgv_AllEmp.Rows[i].Cells["IMG_FACE"].Value.ToString());
-                dgv_AllEmp.Rows[i].Cells["IMG"].Value = img;
+                try
+                {
+                    Bitmap img = new Bitmap(dgv_AllEmp.Rows[i].Cells["IMG_FACE"].Value.ToString());
+                    dgv_AllEmp.Rows[i].Cells["IMG"].Value = img;
+
+                }
+                catch (Exception)
+                {
+                    Bitmap img = new Bitmap(Application.StartupPath + @"\File\noimagefound.Jpg");
+                    dgv_AllEmp.Rows[i].Cells["IMG"].Value = img;
+
+                }
                 dgv_AllEmp.Rows[i].MinimumHeight = 80;
             }
         }
@@ -152,8 +162,16 @@ namespace NFaceID
         {
             txt_HoTen.Text = dgv_AllEmp.Rows[e.RowIndex].Cells["NAME"].Value.ToString();
             url_Face_Cur = dgv_AllEmp.Rows[e.RowIndex].Cells["IMG_FACE"].Value.ToString();
-            Bitmap img = new Bitmap(url_Face_Cur);
-            ptb_ImageCustomer.Image = img;
+            try
+            {
+                Bitmap img = new Bitmap(url_Face_Cur);
+                ptb_ImageCustomer.Image = img;
+            }
+            catch (Exception)
+            {
+                ptb_ImageCustomer.Image = new Bitmap(Application.StartupPath + @"\File\noimagefound.Jpg");
+            }
+           
             ptb_ImageCustomer.SizeMode = PictureBoxSizeMode.StretchImage;
             txt_Cmt.Text = dgv_AllEmp.Rows[e.RowIndex].Cells["CMT"].Value.ToString();
             txt_Email.Text = dgv_AllEmp.Rows[e.RowIndex].Cells["EMAIL"].Value.ToString();
@@ -195,8 +213,18 @@ namespace NFaceID
                 dgv_AllEmp.Columns["IMG_FACE"].Visible = false;
                 for (int i = 0; i < dgv_AllEmp.Rows.Count; i++)
                 {
-                    Bitmap img = new Bitmap(dgv_AllEmp.Rows[i].Cells["IMG_FACE"].Value.ToString());
-                    dgv_AllEmp.Rows[i].Cells["IMG"].Value = img;
+                    try
+                    {
+                        Bitmap img = new Bitmap(dgv_AllEmp.Rows[i].Cells["IMG_FACE"].Value.ToString());
+                        dgv_AllEmp.Rows[i].Cells["IMG"].Value = img;                    
+
+                    }
+                    catch (Exception)
+                    {
+                        Bitmap img = new Bitmap(Application.StartupPath + @"\File\noimagefound.Jpg");
+                        dgv_AllEmp.Rows[i].Cells["IMG"].Value = img;                    
+                        
+                    }
                     dgv_AllEmp.Rows[i].MinimumHeight = 80;
                 }
             }

@@ -39,17 +39,25 @@ namespace NFaceID
             try
             {
                 ptb_Img.Image = new Bitmap(img_detect);
-                ptb_Img.SizeMode = PictureBoxSizeMode.StretchImage;
-
-                ptb_ImgMau.Image = new Bitmap(img_tem);
-                ptb_ImgMau.SizeMode = PictureBoxSizeMode.StretchImage;
-                lbl_time.Text = ngay + " " + gio;
-            }
-            catch (Exception ex)
+                
+            }catch (Exception ex)
             {
-
-                MessageBox.Show(ex.Message);
+                ptb_Img.Image = new Bitmap(Application.StartupPath+@"\File\noimagefound.Jpg");
+                
             }
+            ptb_Img.SizeMode = PictureBoxSizeMode.StretchImage;
+            try{
+                ptb_ImgMau.Image = new Bitmap(img_tem);
+
+            }
+            catch
+            {
+                ptb_ImgMau.Image = new Bitmap(Application.StartupPath + @"\File\noimagefound.Jpg");
+
+            }
+            ptb_ImgMau.SizeMode = PictureBoxSizeMode.StretchImage;
+            lbl_time.Text = ngay + " " + gio;
+            
            
         }
 

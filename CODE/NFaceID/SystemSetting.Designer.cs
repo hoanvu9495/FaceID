@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SystemSetting));
             this.checkBox_family = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox_know = new System.Windows.Forms.TextBox();
@@ -40,13 +41,13 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.button_OK = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button_OK = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,8 +55,8 @@
             // 
             this.checkBox_family.AutoSize = true;
             this.checkBox_family.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.checkBox_family.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.checkBox_family.Location = new System.Drawing.Point(6, 22);
+            this.checkBox_family.ForeColor = System.Drawing.Color.White;
+            this.checkBox_family.Location = new System.Drawing.Point(11, 28);
             this.checkBox_family.Name = "checkBox_family";
             this.checkBox_family.Size = new System.Drawing.Size(196, 23);
             this.checkBox_family.TabIndex = 0;
@@ -66,8 +67,8 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.checkBox1.Location = new System.Drawing.Point(6, 51);
+            this.checkBox1.ForeColor = System.Drawing.Color.White;
+            this.checkBox1.Location = new System.Drawing.Point(11, 66);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(232, 23);
             this.checkBox1.TabIndex = 1;
@@ -77,17 +78,17 @@
             // textBox_know
             // 
             this.textBox_know.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.textBox_know.Location = new System.Drawing.Point(285, 22);
+            this.textBox_know.Location = new System.Drawing.Point(290, 28);
             this.textBox_know.Name = "textBox_know";
-            this.textBox_know.Size = new System.Drawing.Size(241, 23);
+            this.textBox_know.Size = new System.Drawing.Size(236, 23);
             this.textBox_know.TabIndex = 2;
             // 
             // textBox_unknow
             // 
             this.textBox_unknow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.textBox_unknow.Location = new System.Drawing.Point(285, 52);
+            this.textBox_unknow.Location = new System.Drawing.Point(290, 67);
             this.textBox_unknow.Name = "textBox_unknow";
-            this.textBox_unknow.Size = new System.Drawing.Size(241, 23);
+            this.textBox_unknow.Size = new System.Drawing.Size(236, 23);
             this.textBox_unknow.TabIndex = 3;
             // 
             // button_folder0
@@ -96,11 +97,11 @@
             this.button_folder0.FlatAppearance.BorderSize = 0;
             this.button_folder0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_folder0.ForeColor = System.Drawing.Color.White;
+            this.button_folder0.Image = ((System.Drawing.Image)(resources.GetObject("button_folder0.Image")));
             this.button_folder0.Location = new System.Drawing.Point(532, 22);
             this.button_folder0.Name = "button_folder0";
-            this.button_folder0.Size = new System.Drawing.Size(57, 23);
+            this.button_folder0.Size = new System.Drawing.Size(32, 32);
             this.button_folder0.TabIndex = 4;
-            this.button_folder0.Text = "Folder";
             this.button_folder0.UseVisualStyleBackColor = false;
             // 
             // button1
@@ -109,19 +110,19 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(532, 52);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(532, 61);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(57, 23);
+            this.button1.Size = new System.Drawing.Size(32, 32);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Folder";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.checkBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.checkBox2.Location = new System.Drawing.Point(6, 109);
+            this.checkBox2.ForeColor = System.Drawing.Color.White;
+            this.checkBox2.Location = new System.Drawing.Point(11, 144);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(242, 23);
             this.checkBox2.TabIndex = 6;
@@ -134,35 +135,35 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(532, 110);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(532, 139);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(57, 23);
+            this.button2.Size = new System.Drawing.Size(32, 32);
             this.button2.TabIndex = 8;
-            this.button2.Text = "Folder";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.textBox1.Location = new System.Drawing.Point(285, 110);
+            this.textBox1.Location = new System.Drawing.Point(290, 145);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 23);
+            this.textBox1.Size = new System.Drawing.Size(236, 23);
             this.textBox1.TabIndex = 7;
             // 
             // textBox2
             // 
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.textBox2.Location = new System.Drawing.Point(285, 139);
+            this.textBox2.Location = new System.Drawing.Point(290, 184);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(241, 23);
+            this.textBox2.Size = new System.Drawing.Size(236, 23);
             this.textBox2.TabIndex = 10;
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.checkBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.checkBox3.Location = new System.Drawing.Point(6, 138);
+            this.checkBox3.ForeColor = System.Drawing.Color.White;
+            this.checkBox3.Location = new System.Drawing.Point(11, 183);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(277, 23);
             this.checkBox3.TabIndex = 9;
@@ -175,26 +176,12 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(532, 138);
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.Location = new System.Drawing.Point(532, 178);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(57, 23);
+            this.button3.Size = new System.Drawing.Size(32, 32);
             this.button3.TabIndex = 11;
-            this.button3.Text = "Open";
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button_OK
-            // 
-            this.button_OK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.button_OK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button_OK.FlatAppearance.BorderSize = 0;
-            this.button_OK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_OK.ForeColor = System.Drawing.Color.White;
-            this.button_OK.Location = new System.Drawing.Point(477, 12);
-            this.button_OK.Name = "button_OK";
-            this.button_OK.Size = new System.Drawing.Size(75, 25);
-            this.button_OK.TabIndex = 12;
-            this.button_OK.Text = "Cập nhật";
-            this.button_OK.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -202,27 +189,27 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(532, 81);
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.Location = new System.Drawing.Point(532, 100);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(57, 23);
+            this.button4.Size = new System.Drawing.Size(32, 32);
             this.button4.TabIndex = 15;
-            this.button4.Text = "Folder";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // textBox3
             // 
             this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.textBox3.Location = new System.Drawing.Point(285, 81);
+            this.textBox3.Location = new System.Drawing.Point(290, 106);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(241, 23);
+            this.textBox3.Size = new System.Drawing.Size(236, 23);
             this.textBox3.TabIndex = 14;
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.checkBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.checkBox4.Location = new System.Drawing.Point(6, 80);
+            this.checkBox4.ForeColor = System.Drawing.Color.White;
+            this.checkBox4.Location = new System.Drawing.Point(11, 105);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(266, 23);
             this.checkBox4.TabIndex = 13;
@@ -247,13 +234,24 @@
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(12, 41);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(600, 171);
+            this.groupBox1.Size = new System.Drawing.Size(573, 217);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cài đặt";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(212, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(186, 28);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Cấu hình hệ thống";
             // 
             // button5
             // 
@@ -262,30 +260,33 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(558, 12);
+            this.button5.Image = global::NFaceID.Properties.Resources.close1;
+            this.button5.Location = new System.Drawing.Point(548, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(54, 25);
+            this.button5.Size = new System.Drawing.Size(32, 32);
             this.button5.TabIndex = 17;
-            this.button5.Text = "Đóng";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // label1
+            // button_OK
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
-            this.label1.Location = new System.Drawing.Point(12, 6);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 28);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Cấu hình hệ thống";
+            this.button_OK.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.button_OK.FlatAppearance.BorderSize = 0;
+            this.button_OK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_OK.ForeColor = System.Drawing.Color.White;
+            this.button_OK.Image = global::NFaceID.Properties.Resources.sync;
+            this.button_OK.Location = new System.Drawing.Point(511, 5);
+            this.button_OK.Name = "button_OK";
+            this.button_OK.Size = new System.Drawing.Size(32, 32);
+            this.button_OK.TabIndex = 12;
+            this.button_OK.UseVisualStyleBackColor = false;
             // 
             // SystemSetting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(618, 218);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(68)))), ((int)(((byte)(106)))));
+            this.ClientSize = new System.Drawing.Size(595, 270);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);

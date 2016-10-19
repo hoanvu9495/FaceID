@@ -11,6 +11,7 @@ using System.Net;
 using System.Windows;
 using System.Threading;
 using System.IO;
+using System.Collections;
 
 //using lib;
 using Emgu.CV;
@@ -43,6 +44,7 @@ namespace NFaceID
         public List<DateTime> m_time_list = new List<DateTime>();
         public Bitmap m_bitmap_face = null;
         public Rectangle m_rectangle_roi = new Rectangle();
+        Queue listItemCur = new Queue();
 
         public Bitmap m_bitmap_to_show = null;
         public Bitmap m_bitmap_to_tracking = null;
@@ -365,7 +367,7 @@ namespace NFaceID
             {
                 updatedUI = true;
             }
-            
+
 
         }
         #endregion ----UI interaction-----
@@ -500,17 +502,21 @@ namespace NFaceID
                             imageList.Images.Add(s_, img);
                             ListViewItem lvitem = new ListViewItem();
                             lvitem.ImageIndex = imageList.Images.Count - 1;
+                            if (listItemCur.Count > 8)
+                            {
+                                listItemCur.Dequeue();
+                            }
+                            listItemCur.Enqueue(lvitem);
                             //lvitem.Text = name + ":" + confident.ToString();
                             lvitem.Text = fullname;
-                            ViewRs.Enqueue(lvitem);
-
-
-                            m_listView_Thumb.Items.Insert(0, lvitem);
-
-                            //m_listView_Thumb.Items.Add(lvitem);
-                            //m_listView_Thumb.Show();
-
-                            //m_listView_Thumb.Items.Add(lvitem);
+                            m_listView_Thumb.Items.Clear();
+                            var rsv = listItemCur.ToArray();
+                            for (int i = rsv.Length - 1; i >= 0; i--)
+                            {
+                                m_listView_Thumb.Items.Insert(0,(ListViewItem)rsv[i]);
+                            }
+                            m_listView_Thumb.Refresh();
+                           
                         }));
 
                         //add thong tin vao report
@@ -570,9 +576,18 @@ namespace NFaceID
                             //lvitem.Text = name + ":" + confident.ToString();
                             lvitem.Text = name;
                             lvitem.Name = s;
-                            ViewRs.Enqueue(lvitem);
-                            m_listView_Thumb.Items.Insert(0, lvitem);
-
+                            if (listItemCur.Count > 8)
+                            {
+                                listItemCur.Dequeue();
+                            }
+                            listItemCur.Enqueue(lvitem);
+                            m_listView_Thumb.Items.Clear();
+                            var rsv = listItemCur.ToArray();
+                            for (int i = rsv.Length-1; i >=0 ; i--)
+                            {
+                                m_listView_Thumb.Items.Insert(0,(ListViewItem)rsv[i]);
+                            }
+                            m_listView_Thumb.Refresh();
                         }));
 
                     }

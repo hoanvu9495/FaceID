@@ -26,8 +26,8 @@ namespace NFaceID
         private void loadDGV()
         {
             DateTime now = DateTime.Today;
-             s = new DateTime(now.Year,now.Month,now.Day,0,0,0);
-             end = new DateTime(now.Year, now.Month, now.Day, 23, 59, 0);
+            s = new DateTime(now.Year, now.Month, now.Day, 0, 0, 0);
+            end = new DateTime(now.Year, now.Month, now.Day, 23, 59, 0);
             PageCount = DAL_HISTORY.PageCount(s, end);
             button3.Enabled = false;
             if (PageCount > 1)
@@ -46,8 +46,17 @@ namespace NFaceID
                 PageCur = 1;
                 for (int i = 0; i < dgv_History.Rows.Count; i++)
                 {
-                    Bitmap imgv = new Bitmap(dgv_History.Rows[i].Cells["IMG_FACE"].Value.ToString());
-                    img.Image = imgv;
+                    try
+                    {
+                        Bitmap imgv = new Bitmap(dgv_History.Rows[i].Cells["IMG_FACE"].Value.ToString());
+                        img.Image = imgv;
+                    }
+                    catch (Exception)
+                    {
+                        img.Image = new Bitmap(Application.StartupPath + @"\File\noimagefound.Jpg");
+
+                    }
+
                     dgv_History.Rows[i].MinimumHeight = 80;
 
 
@@ -66,8 +75,8 @@ namespace NFaceID
 
         private void button1_Click(object sender, EventArgs e)
         {
-             s = (DateTime)dateTimePicker1.Value;
-             end = (DateTime)dateTimePicker2.Value;
+            s = (DateTime)dateTimePicker1.Value;
+            end = (DateTime)dateTimePicker2.Value;
             if (s > end)
             {
                 MessageBox.Show("Vui lòng điều chỉnh lại thời gian bắt đầu và kết thúc", "Thông báo");
@@ -76,7 +85,7 @@ namespace NFaceID
             {
                 PageCount = DAL_HISTORY.PageCount(s, end);
                 button3.Enabled = false;
-                if (PageCount>1)
+                if (PageCount > 1)
                 {
                     button2.Enabled = true;
                 }
@@ -84,7 +93,7 @@ namespace NFaceID
                 {
                     button2.Enabled = false;
                 }
-                dgv_History.DataSource = BLL_HISTORY.filterPage(s, end,1);
+                dgv_History.DataSource = BLL_HISTORY.filterPage(s, end, 1);
                 if (dgv_History.Rows.Count > 0)
                 {
                     DataGridViewImageColumn img = (DataGridViewImageColumn)dgv_History.Columns["AnhNV"];
@@ -92,10 +101,19 @@ namespace NFaceID
                     PageCur = 1;
                     for (int i = 0; i < dgv_History.Rows.Count; i++)
                     {
-                        Bitmap imgv = new Bitmap(dgv_History.Rows[i].Cells["IMG_FACE"].Value.ToString());
-                        img.Image = imgv; 
+                        try
+                        {
+                            Bitmap imgv = new Bitmap(dgv_History.Rows[i].Cells["IMG_FACE"].Value.ToString());
+                            img.Image = imgv;
+                        }
+                        catch (Exception)
+                        {
+                            img.Image = new Bitmap(Application.StartupPath + @"\File\noimagefound.Jpg");
+
+                        }
+
                         dgv_History.Rows[i].MinimumHeight = 80;
-                        
+
 
                     }
                 }
@@ -104,7 +122,7 @@ namespace NFaceID
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
             button3.Enabled = true;
             if (s > end)
             {
@@ -121,8 +139,17 @@ namespace NFaceID
                     PageCur += 1;
                     for (int i = 0; i < dgv_History.Rows.Count; i++)
                     {
-                        Bitmap imgv = new Bitmap(dgv_History.Rows[i].Cells["IMG_FACE"].Value.ToString());
-                        img.Image = imgv;
+                        try
+                        {
+                            Bitmap imgv = new Bitmap(dgv_History.Rows[i].Cells["IMG_FACE"].Value.ToString());
+                            img.Image = imgv;
+                        }
+                        catch (Exception)
+                        {
+
+                            img.Image = new Bitmap(Application.StartupPath + @"\File\noimagefound.Jpg");
+                        }
+
                         dgv_History.Rows[i].MinimumHeight = 80;
 
 
@@ -134,13 +161,13 @@ namespace NFaceID
                 button2.Enabled = false;
                 button3.Enabled = true;
             }
-            
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
-            
+
+
             if (s > end)
             {
                 MessageBox.Show("Vui lòng điều chỉnh lại thời gian bắt đầu và kết thúc", "Thông báo");
@@ -156,11 +183,16 @@ namespace NFaceID
                     PageCur -= 1;
                     for (int i = 0; i < dgv_History.Rows.Count; i++)
                     {
-                        Bitmap imgv = new Bitmap(dgv_History.Rows[i].Cells["IMG_FACE"].Value.ToString());
-                        img.Image = imgv;
+                        try
+                        {
+                            Bitmap imgv = new Bitmap(dgv_History.Rows[i].Cells["IMG_FACE"].Value.ToString());
+                            img.Image = imgv;
+                        }
+                        catch (Exception)
+                        {
+                            img.Image = new Bitmap(Application.StartupPath + @"\File\noimagefound.Jpg");
+                        }
                         dgv_History.Rows[i].MinimumHeight = 80;
-
-
                     }
                 }
             }
@@ -169,7 +201,7 @@ namespace NFaceID
                 button3.Enabled = false;
                 button2.Enabled = true;
             }
-           
+
         }
 
         private void button4_Click(object sender, EventArgs e)
