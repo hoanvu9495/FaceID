@@ -134,3 +134,36 @@ D:\ProjectGit\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Properties.Resources.r
 D:\ProjectGit\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Register.resources
 D:\ProjectGit\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.SystemSetting.resources
 D:\ProjectGit\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.csproj.GenerateResource.Cache
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\NFaceID.exe.config
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\NFaceID.exe
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\NFaceID.pdb
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\Emgu.CV.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\Emgu.CV.UI.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\Emgu.Util.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\EntityFramework.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\EntityFramework.SqlServer.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\EPPlus.dll
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\EntityFramework.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\EntityFramework.SqlServer.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\bin\x86\Release\EPPlus.xml
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.About.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.CameraForm.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Form1.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Form_AddFace.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.frm_ChamCong.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.frm_History.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.frm_init.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.frm_ManageEmployee.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.frm_ProfileEmp.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Frm_Turnon.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.frm_ViewImgDetect.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.frm_Wait.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.InputLicense.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Loading.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Polygon.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Properties.Resources.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.Register.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.SystemSetting.resources
+G:\project\NEGATECH\Cham Cong Mat Nguoi\Git\FaceID\CODE\NFaceID\obj\x86\Release\NFaceID.csproj.GenerateResource.Cache

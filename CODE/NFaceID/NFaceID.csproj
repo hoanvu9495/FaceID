@@ -163,6 +163,12 @@
     <Compile Include="frm_ChamCong.Designer.cs">
       <DependentUpon>frm_ChamCong.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_enroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_enroll.Designer.cs">
+      <DependentUpon>frm_enroll.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_History.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -261,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_ChamCong.resx">
       <DependentUpon>frm_ChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_enroll.resx">
+      <DependentUpon>frm_enroll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_History.resx">
       <DependentUpon>frm_History.cs</DependentUpon>
@@ -407,6 +416,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sync.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
